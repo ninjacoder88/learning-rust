@@ -28,6 +28,13 @@ Use GUI installer
 `sudo apt update`
 `sudo apt install neovim`
 
+## Setup GitHub
+`ssh-keygen -t ed25519 -C "user@email.com"`
+`git clone git@github.com...`
+`git config --global user.email "user@email.com"`
+`git config --global user.name "username"`
+`git config --global core.editor "nvim"`
+
 ## Rust!
 
 ### compile and run
