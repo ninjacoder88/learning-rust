@@ -2,7 +2,7 @@ fn main() {
     
 }
 
-fn loop(){
+fn loop_loop(){
     let mut counter = 0;
 
     //loop will run forever until exited, think while(true)
